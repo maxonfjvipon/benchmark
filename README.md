@@ -26,18 +26,18 @@ and used by
 <!-- benchmark_begin -->
 This is the summary of the tests performed
 by openjdk 23.0.2,
-on 2025-07-23
-at 07:49,
+on 2025-07-25
+at 18:07,
 on Linux with 4 CPUs,
 in [this GHA run][benchmark-gha]
 (the numbers are in milliseconds):
 
 | Test method | Before | After | Diff | Gain |
 | --- | --: | --: | --: | --: |
-| [`Big.plain`](https://github.com/objectionary/benchmark/blob/master/src/main/java/org/eolang/benchmark/Big.java) | `45.85` | `45.96` | `+0.10` | `+0%` |
-| [`Big.streams`](https://github.com/objectionary/benchmark/blob/master/src/main/java/org/eolang/benchmark/Big.java) | `171.72` | `48.70` | `-123.02` | `+71%` |
+| [`Big.plain`](https://github.com/objectionary/benchmark/blob/master/src/main/java/org/eolang/benchmark/Big.java) | `45.86` | `45.62` | `-0.24` | `+0%` |
+| [`Big.streams`](https://github.com/objectionary/benchmark/blob/master/src/main/java/org/eolang/benchmark/Big.java) | `169.23` | `48.13` | `-121.10` | `+71%` |
 
-The entire test took 114 seconds.
+The entire test took 125 seconds.
 <!-- benchmark_end -->
 
 Important numbers are in the "Gain" column.
@@ -56,4 +56,4 @@ make
 
 You will need [Maven 3.3+](https://maven.apache.org) and Java 11+ installed.
 
-[benchmark-gha]: https://github.com/objectionary/benchmark/actions/runs/16464703413
+[benchmark-gha]: https://github.com/maxonfjvipon/benchmark/actions/runs/16528563976
